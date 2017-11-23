@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  IMDemo
+//
+//  Created by liuyaoheng on 2017/11/23.
+//  Copyright © 2017年 liuyaoheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define DEMO_CALL  1
+
+
+#import <Hyphenate/Hyphenate.h>
+#import <EaseUI/EaseUI.h>
+#import <EaseUI/EaseMessageViewController.h>
+#import "ChatDemoHelper.h"
+
+static NSString * const IMAppKey = @"easemob-demo#chatdemoui";
+static NSString * const IMdev = @"chatdemoui_dev";
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
